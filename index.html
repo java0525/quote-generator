@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quote-Generator</title>
+  <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+  <div class="container">
+    <!-- Quote Box Div -->
+    <div class="quotebox">
+      <h1>Quote Generator</h1>
+      <!-- left " -->
+      <i class="fa fa-quote-left fa-3x" aria-hidden="true"></i>
+
+      <!-- Quote text-->
+      <div id="quote">
+        <h2><span id="quote-text"></span>”</h2>
+      </div>
+
+      <!-- right " -->
+      <i class="fa fa-quote-right fa-3x right-quotation-mark" aria-hidden="true"></i>
+
+      <!-- author Div -->
+      <div id="author">
+        <h4><em></em></h4>
+      </div>
+
+
+      <div class="buttons">
+        <!-- Button -->
+        <div class="quote">
+          <button onclick="buttonClick()" class="quote-button">Generate Quote</button>
+        </div>
+        <!-- Button END -->
+      </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
+</html>

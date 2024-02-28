@@ -1,0 +1,85 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito';
+
+body {
+  background-color: #070F2B;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Quote Container*/
+.quotebox {
+  background-color: #FBF6EE;
+  border-radius: 5%;
+  max-width: 550px;
+  margin: 150px auto;
+  margin-bottom: 0;
+  padding: 30px 50px 50px 30px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  padding-bottom: 35px;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+h4 {
+  text-align: right;
+  clear: both;
+  padding-right: 15px;
+  font-size: 1.3em;
+  padding-top: 15px;
+}
+
+h5 {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.buttons {
+  padding-bottom: 35px;
+}
+
+.quote {
+  float: right;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+/* Quote */
+.right-quotation-mark {
+  float: right;
+}
+
+.fa-quote-left {
+  color: black;
+}
+
+.fa-quote-right {
+  color: black;
+}
+
+/* Quote button */
+.quote-button {
+  font-size: 15px;
+  padding: 18px 25px;
+  border-radius: 25px;
+
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.quote-button:hover {
+  transform: scale(1.1);
+}
+
+.quote-button:focus {
+  outline: none;
+}
